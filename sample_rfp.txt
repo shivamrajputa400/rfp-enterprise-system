@@ -1,0 +1,21 @@
+COMPANY: ABC Manufacturing Ltd.
+PROJECT: Factory Electrical Upgrade
+
+REQUIRED ITEMS:
+1. XLPE Copper Cable 1.5 sqmm - 500 meters
+   Specifications: 1100V rating, copper conductor, IS standards
+   Delivery: 2 weeks
+
+2. LED Street Light 50W - 25 units  
+   Specifications: IP65 rating, 5000K color, 6000 lumen
+   Delivery: 3 weeks
+
+3. Distribution Transformer 500KVA - 2 units
+   Specifications: 11KV/433V, oil cooled, 500KVA capacity
+   Delivery: 6 weeks
+
+PROJECT DETAILS:
+Delivery Timeline: 8 weeks total
+Payment Terms: 50% advance, 50% on delivery
+Warranty Requirements: 2 years comprehensive
+Quality Standards: IS/IEC standards required
