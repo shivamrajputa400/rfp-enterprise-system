@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RFP Agentic AI System | EY Techathon 6.0</title>
     <style>
-        /* Reset and Base */
+        
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { 
             font-family: 'Inter', 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif; 
@@ -14,14 +14,13 @@
             line-height: 1.6;
         }
         
-        /* Container */
         .container { 
             max-width: 1280px; 
             margin: 0 auto; 
             padding: 0 24px;
         }
         
-        /* Header */
+       
         .main-header {
             text-align: center;
             margin-bottom: 48px;
@@ -102,7 +101,7 @@
             color: #fde047;
         }
         
-        /* Main Content Sections */
+        
         .content-section {
             background: #1e293b;
             border-radius: 20px;
@@ -216,7 +215,7 @@
             border-color: #fde047;
         }
         
-        /* Progress Section */
+        
         .progress-container {
             display: none;
             margin-bottom: 30px;
@@ -368,7 +367,7 @@
             flex-wrap: wrap;
         }
         
-        /* Upload Section */
+      
         .upload-area {
             border: 3px dashed #475569;
             border-radius: 16px;
@@ -517,7 +516,7 @@
             margin-top: 8px;
         }
         
-        /* Loading State */
+        
         .loading-section {
             display: none;
             text-align: center;
@@ -638,7 +637,7 @@
             50% { opacity: 0.5; }
         }
         
-        /* Responsive */
+        
         @media (max-width: 768px) {
             .container { padding: 0 16px; }
             .main-title { font-size: 2.5rem; }
@@ -651,7 +650,7 @@
     </style>
 </head>
 <body>
-    <!-- Header -->
+   
     <header class="main-header">
         <div class="header-gradient"></div>
         <div class="container">
@@ -666,9 +665,9 @@
         </div>
     </header>
 
-    <!-- Main Content -->
+   
     <main class="container">
-        <!-- Web Scraper Section -->
+        
         <section class="content-section" id="webScraperSection">
             <h2 class="section-title">
                 <div class="title-icon">01</div>
@@ -678,7 +677,7 @@
                 Extract content from any website and convert it directly into processable RFP documents. The system automatically structures web content for AI analysis.
             </p>
             
-            <!-- URL Input -->
+            
             <div class="scraper-input-group">
                 <input type="text" id="scraperUrl" class="url-input" 
                     placeholder="https://example.com/rfp-document-or-article"
@@ -694,7 +693,7 @@
                 Supports: Corporate websites, RFP portals, product documentation, technical specifications, and business articles
             </p>
             
-            <!-- Scraping Controls -->
+           
             <div class="scraper-controls">
                 <div class="control-group">
                     <div class="control-label">
@@ -735,7 +734,7 @@
                 </div>
             </div>
             
-            <!-- Progress Section -->
+            
             <div class="progress-container" id="scraperProgress">
                 <div class="progress-header">
                     <span style="color: #f8fafc; font-weight: 500;">Extraction Progress</span>
@@ -773,7 +772,7 @@
                 </div>
             </div>
             
-            <!-- Content Preview -->
+            
             <div class="preview-container" id="previewContainer">
                 <div class="preview-title">
                     <div style="width: 24px; height: 24px; background: #fde047; border-radius: 6px; display: flex; align-items: center; justify-content: center; color: #0f172a; font-weight: 600;">P</div>
@@ -784,7 +783,7 @@
                 </div>
             </div>
             
-            <!-- Results Section -->
+            
             <div class="scraper-results" id="scraperResults">
                 <div style="background: rgba(253, 224, 71, 0.05); border-radius: 16px; padding: 32px; border: 1px solid rgba(253, 224, 71, 0.1); margin-bottom: 24px;">
                     <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px;">
@@ -840,13 +839,13 @@
                         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
                         gap: 16px;
                     ">
-                        <!-- Recent items will be added here dynamically -->
+                        
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- File Upload Section -->
+        
         <section class="content-section">
             <h2 class="section-title">
                 <div class="title-icon">02</div>
@@ -873,13 +872,13 @@
             </div>
         </section>
 
-        <!-- Loading State -->
+       
         <div class="loading-section" id="loadingSection">
             <div class="loading-spinner"></div>
             <div class="loading-text" id="progressText">Initializing AI processing pipeline...</div>
         </div>
 
-        <!-- Results Section -->
+        
         <section class="results-section" id="resultsSection">
             <h2 class="section-title">
                 <div class="title-icon">03</div>
@@ -887,12 +886,12 @@
             </h2>
             
             <div id="resultsContent">
-                <!-- Results will be populated here -->
+               
             </div>
         </section>
     </main>
 
-    <!-- Footer -->
+   
     <footer class="main-footer">
         <div class="container">
             <div class="footer-content">
@@ -905,29 +904,20 @@
                     </p>
                 </div>
                 
-                <div class="footer-column">
-                    <h3>Team AgenTriX</h3>
-                    <div class="footer-links">
-                        <a href="#" class="footer-link">AI/ML Engineering</a>
-                        <a href="#" class="footer-link">Full Stack Development</a>
-                        <a href="#" class="footer-link">Business Analysis</a>
-                        <a href="#" class="footer-link">System Architecture</a>
-                    </div>
-                </div>
                 
                 <div class="footer-column">
                     <h3>Quick Access</h3>
                     <div class="footer-links">
-                        <a href="#" class="footer-link">Technical Documentation</a>
-                        <a href="#" class="footer-link">Source Code</a>
-                        <a href="#" class="footer-link">Project Presentation</a>
+                        <a href="https://github.com/shivamrajputa400/rfp-enterprise-system" class="footer-link">Technical Documentation</a>
+                        <a href="https://github.com/shivamrajputa400/rfp-enterprise-system" class="footer-link">Source Code</a>
+                        <a href="https://github.com/shivamrajputa400/rfp-enterprise-system" class="footer-link">Project Presentation</a>
                     </div>
                 </div>
             </div>
             
             <div class="footer-bottom">
                 <div class="copyright">
-                    © 2024 EY Techathon 6.0 | Team AgenTriX | All Rights Reserved
+                     2025 EY Techathon 6.0 | Team AgenTriX | All Rights Reserved
                 </div>
                 
                 <div class="status-badge">
